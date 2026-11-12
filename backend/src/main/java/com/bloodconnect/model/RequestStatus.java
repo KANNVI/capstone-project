@@ -1,0 +1,4 @@
+package com.bloodconnect.model;
+
+/** PENDING -> DONOR_ACCEPTED -> DONATION_IN_PROGRESS -> COMPLETED (or CANCELLED) */
+public enum RequestStatus { PENDING, DONOR_ACCEPTED, DONATION_IN_PROGRESS, COMPLETED, CANCELLED }

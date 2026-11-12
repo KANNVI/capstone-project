@@ -1,0 +1,14 @@
+# Optional: MySQL without installing it.   docker compose up -d
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: bloodconnect-mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: bloodconnect
+    ports:
+      - "3306:3306"
+    volumes:
+      - bloodconnect-data:/var/lib/mysql
+volumes:
+  bloodconnect-data:
