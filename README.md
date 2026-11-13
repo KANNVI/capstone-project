@@ -51,7 +51,7 @@ npm install
 npm run dev        # http://localhost:5173
 ```
 
-API URL is in `frontend/.env` (`VITE_API_URL`, default `http://localhost:8080/api`).
+API URL is in `frontend/.env` (`VITE_API_URL=https://capstone-project-luyl.onrender.com/api`).
 
 ## 2-minute demo script
 
